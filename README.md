@@ -2,6 +2,8 @@
 
 > This is a Ruby on Rails 5 application that allows the users to create their own portfolios 
 
+### Running with Subdomains 
+. rails s -p 3002
 ### Features 
 
 - Real time chat engine for comments 
@@ -20,4 +22,3 @@ def general_method
  ```javascript
  alert('Hi there'); 
  ```
- 
