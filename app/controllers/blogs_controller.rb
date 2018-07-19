@@ -5,11 +5,16 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     @blogs = Blog.all
+    @page_title = "My Portfolio Blog"
+    # @page_title = "#{current_user.name.split(" ").first}'s Portfolio Blog " if current_user != nil
   end
 
   # GET /blogs/1
   # GET /blogs/1.json
   def show
+    @page_title = @blog.title
+    @seo_keywords = @blog.body
+    # @page_title = @blog.title if @blog.title != nil 
   end
 
   # GET /blogs/new
