@@ -4,9 +4,8 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    @blogs = Blog.all
+    @blogs = Blog.special_blogs
     @page_title = "My Portfolio Blog"
-    # @page_title = "#{current_user.name.split(" ").first}'s Portfolio Blog " if current_user != nil
   end
 
   # GET /blogs/1
