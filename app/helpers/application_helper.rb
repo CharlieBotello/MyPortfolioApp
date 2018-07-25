@@ -15,6 +15,10 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "sourch-greeting")
     end 
   end
+
+  def copyright_generator
+    BotelloViewTool::Renderer.copyright 'Charlie Botello', 'All rights reserved'
+  end
 end
 
 
