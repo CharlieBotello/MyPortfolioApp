@@ -112,7 +112,7 @@ body {
  */
 
 
- .card-body {
+ .card-block {
   color: black;
   text-align: left;
  }
@@ -121,3 +121,29 @@ body {
   color: black;
 
 }
+
+.register-text {
+  text-align: right;
+}
+
+.registration-style {
+  padding: .75rem 1.25rem;
+}
+
+.register-edit {
+  padding: .75rem 1.25rem;  
+}
+
+.login > .card {
+  width: 22rem;
+  padding: .75rem 1.25rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
