@@ -64,4 +64,9 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'webpacker', '~> 3.5', '>= 3.5.5'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'carrierwave', '~> 1.2', '>= 1.2.3'
+gem 'mini_magick', '~> 4.8'
+gem 'carrierwave-aws', '~> 1.3'
+gem 'dotenv-rails', '~> 2.5'
+gem 'aws-sdk-s3', '~> 1.17', require: false
 
