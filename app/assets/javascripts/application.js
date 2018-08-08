@@ -19,6 +19,7 @@
 // = require jquery
 //= require jquery-ui
 //= require jquery_ujs 
+//= require cocoon
 //= html.sortable
 //= require turbolinks
 // = require_tree .
